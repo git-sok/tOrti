@@ -58,6 +58,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
+    position: relative;
 }
 
 .g-cards
@@ -70,4 +71,29 @@
 .g-cards :not(:first-child)
 {
     padding-left: 44px;
+}
+
+.katalog__products-top-berry
+{
+    position: absolute;
+    /* width: 270px;
+    height: 274px; */
+    filter: blur(7px);
+    transform: rotate(64deg);
+    left: -200px;
+    top: 50px;
+}
+
+.katalog__products-center-img
+{
+    position: absolute;
+    bottom: 100px;
+    right: -160px;
+}
+
+.katalog__products-botton-img
+{
+    position: absolute;
+    left: -200px;
+    top: 30px;
 }
