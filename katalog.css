@@ -49,6 +49,8 @@
     width: 163px;
     height: 68px;
     margin-bottom: 50px;
+    margin-left: 44px;
+    border: none;
 }
 
 .katalog__products-top, .katalog__products-center, .katalog__products-botton
@@ -56,4 +58,16 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
+}
+
+.g-cards
+{
+    border: 1px solid #f2f6fa;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.g-cards :not(:first-child)
+{
+    padding-left: 44px;
 }
