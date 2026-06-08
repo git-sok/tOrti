@@ -11,3 +11,49 @@
     color: #2e363e;
     margin-bottom: 80px;
 }
+
+.global__h4-title
+{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 143%;
+    color: #2e363e;
+    margin-top: 50px;
+}
+
+.global__description-card
+{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #2e363e;
+    margin-top: 12px;
+}
+
+.global__price-card
+{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 150%;
+    color: #434b53;
+    margin-top: 24px;
+    margin-bottom: 14px;
+}
+
+.g-button--small
+{
+    padding: 20px 40px;
+    width: 163px;
+    height: 68px;
+    margin-bottom: 50px;
+}
+
+.katalog__products-top, .katalog__products-center, .katalog__products-botton
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
