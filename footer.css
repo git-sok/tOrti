@@ -18,6 +18,7 @@
     height: 394px;
     background-color: #fff;
     margin-bottom: 80px;
+    position: relative;
 }
 
 .footer__zakaz-title
@@ -133,4 +134,24 @@ label
 .footer__links p
 {
     cursor: pointer;
+}
+
+.foot2
+{
+    position: absolute;
+    bottom: 350px;
+    left: -100px;
+}
+
+.foot3
+{
+    position: absolute;
+    bottom: 300px;
+    left: 1100px;
+}
+
+.foot4
+{
+    position: absolute;
+    left: 1125px;
 }
