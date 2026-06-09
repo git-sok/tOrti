@@ -76,8 +76,6 @@
 .katalog__products-top-berry
 {
     position: absolute;
-    /* width: 270px;
-    height: 274px; */
     filter: blur(7px);
     transform: rotate(64deg);
     left: -200px;

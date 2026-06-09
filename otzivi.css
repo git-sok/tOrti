@@ -1,0 +1,115 @@
+
+
+.otzivi
+{
+    max-width: 100%;
+    height: 1505px;
+    background-image: url('./imgs/otzivi.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 306px;
+}
+
+.otzivi__title-text
+{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 125%;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #fff;
+}
+
+.otzivi__rezalt
+{
+    border: 2px solid #e2eaf2;
+    border-radius: 5px;
+    padding: 70px 143px;
+    width: 1180px;
+    height: 615px;
+    box-shadow: 2px 8px 16px 0 rgba(194, 198, 208, 0.06);
+    background-color: #fff;
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.otzivi__rezalt-box-right
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.otzivi__rezalt-box-right-name
+{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 143%;
+    text-align: center;
+    color: #2e363e;
+    margin-top: 30px;
+}
+
+.otzivi__rezalt-box-right-city
+{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 170%;
+    text-align: center;
+    color: #a6aeb6;
+    margin-top: 6px;
+}
+
+.otzivi__rezalt-box-title
+{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 143%;
+    color: #2e363e;
+    margin-top: 24px;
+}
+
+.otzivi__rezalt-box-description
+{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 170%;
+    color: #2e363e;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.otzivi__rezalt-box-all-otziv
+{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #4a94ff;
+    text-decoration: none;
+    border-bottom: 1px dashed #4a94ff;
+    width: 179px;
+    height: 0px;
+}
+
+.otzivi__rezalt-box-right-berry
+{
+    position: absolute;
+    left: 500px;
+    top: -100px;
+}
+
+.otzivi__arrows
+{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 70px;
+}
